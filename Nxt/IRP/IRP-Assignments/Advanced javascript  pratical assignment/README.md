@@ -40,6 +40,11 @@ node part-f-integration/quickcart.js
 
 Open `part-e-optimization-events/index.html` in a browser, or serve the project with VS Code Live Server. Open browser developer tools to see scroll and memoization logs.
 
+## Public Links
+
+- **GitHub repository:** https://github.com/mabhiabhiram-cell/advanced-javascript-practical-assignment
+- **Live Netlify demo:** https://quickcart-advanced-javascript-mabhiabhiram.netlify.app
+
 ## DOM Screenshot
 
 The optimization and event-delegation demo includes a search field, removable product
