@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickCart - Performance and DOM Events</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>QuickCart Optimization Demo</h1>
+
+      <section>
+        <label for="searchInput">Search products</label>
+        <input id="searchInput" type="search" placeholder="Type to search..." />
+        <p id="searchStatus" aria-live="polite"></p>
+      </section>
+
+      <section>
+        <h2>Products</h2>
+        <ul id="productList">
+          <li data-product="Laptop"><span>Laptop</span><button class="remove-button" type="button">Remove</button></li>
+          <li data-product="Mouse"><span>Mouse</span><button class="remove-button" type="button">Remove</button></li>
+          <li data-product="Keyboard"><span>Keyboard</span><button class="remove-button" type="button">Remove</button></li>
+        </ul>
+      </section>
+
+      <section class="scroll-demo">
+        <h2>Scroll area</h2>
+        <p>Scroll this page. Throttle output appears in the console.</p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
