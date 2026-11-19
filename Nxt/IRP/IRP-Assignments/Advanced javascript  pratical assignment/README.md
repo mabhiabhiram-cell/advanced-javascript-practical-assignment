@@ -4,6 +4,8 @@
 
 This project implements the six QuickCart practical exercises: objects and classes, array methods and collections, JSON handling, asynchronous JavaScript, performance and DOM events, and final integration.
 
+For a detailed walkthrough of each concept, implementation approach, and interview talking points, see [sample/Details of Assignment.md](sample/Details%20of%20Assignment.md).
+
 ## Technologies
 
 - Modern JavaScript (ES6+)
@@ -23,6 +25,7 @@ quickcart-advanced-javascript/
 ├── part-e-optimization-events/script.js
 ├── part-e-optimization-events/style.css
 ├── part-f-integration/quickcart.js
+├── sample/Details of Assignment.md
 └── README.md
 ```
 
